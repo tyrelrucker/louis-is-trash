@@ -1,0 +1,29 @@
+<html>
+    
+    <head>
+        
+    </head>
+<body> 
+<h1 id="datruth">louis is <span id="adjective">Awesome</span></h1>
+<input type="button" value="click me" onclick="alert('sike!louis is trash')"/>
+<input type="button" value="Activate" onclick="chillen('bruh')"/>
+<input type="button" value="Wizards" onclick="changeSentence()"/>
+<input type="button" value="Louis is ..." onclick="changeAdjective()"/>
+</body>
+
+    <script>
+        alert("I disagree with the above statement")
+    function chillen(){
+        alert("this code is shillen at the bottom , waiting to be called on")
+    }
+      function changeSentence(){
+          document.getElementById("datruth").innerHTML ="wizards are the best ever";
+      }
+        function changeAdjective(){
+            var newWord = prompt("Give me a new word to describe louis");
+          document.getElementById("adjective").innerHTML = "trash";
+        }
+    </script>
+    
+    
+</html>
